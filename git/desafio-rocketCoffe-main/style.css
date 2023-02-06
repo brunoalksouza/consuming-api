@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style-type: none;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: black;
+  padding: 0 50px;
+}
+
+.img-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.img-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin: 0, 20px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.rocket-logo {
+  width: 70px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  margin: 28px;
+}
+
+li:hover {
+  cursor: pointer;
+  color: purple;
+  transform: scale(1.07);
+}
+
+.getCoffe-btn {
+  color: white;
+  background-color: black;
+  border: 3px solid #8257e5;
+  border-radius: 10px;
+  height: 45px;
+  width: 200px;
+  padding: 2px 20px;
+  top: 50%;
+  transition: 80ms ease;
+}
+
+.getCoffe-btn:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+  background-color: #29292e;
+}
+
+.img-left {
+  z-index: -1;
+}
+
+.img-right {
+  z-index: -1;
+}
+
+main {
+  color: white;
+  top: 0;
+  left: 50%;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+  font-size: 70px;
+}
+
+.title1 {
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.title2 {
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: #8257e5 2px -2px, #8257e5 -2px 2px, #8257e5 2px 2px,
+    #8257e5 -2px -2px;
+  color: black;
+}
+
+.coffee-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
